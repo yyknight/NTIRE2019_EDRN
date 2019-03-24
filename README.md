@@ -16,7 +16,7 @@ Please download the dataset from [here](https://competitions.codalab.org/competi
 `$ python main.py --save EDRN --save_results --save_models --model edrn --patch_size 128 --lr_decay 50 --n_GPUs 1 --chop`
 
 ## Test
-Quick start (Demo) to reproduce our results. Please download our pretrained model from [here]().
+Quick start (Demo) to reproduce our results. Please download our pretrained model from [here](https://drive.google.com/open?id=1CxVtrxlgB-iWEFsYuUicqksjTvpBDtxD).
 
 `$ python main.py --save_results --model edrn --n_GPUs 1 --chop --pre_train ../experiment/model/EDRN.pt --self_ensemble --test_only`
 
