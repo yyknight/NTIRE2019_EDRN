@@ -1,4 +1,5 @@
-# NTIRE2019 Real Super-Resolution Challenge: Encode-Decode Residual Network
+# Encode-Decode Residual Network
+Our solution for NTIRE2019 Real Super-Resolution Challenge.
 
 ## Dependencies
   * Python3.5
