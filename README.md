@@ -2,10 +2,11 @@
 Our solution for NTIRE2019 Real Super-Resolution Challenge.
 
 ## Dependencies
-  * Python3.5
-  * PyTorch_0.4.1
+  * Python (tested on release 3.5)
+  * PyTorch (tested on release 0.4.1)
   * CUDA9.0
   * cuDNN7.1
+  
 Our code is tested on Ubuntu 16.04 environment with a NVIDIA GTX 1080Ti GPU.
 
 ## Dataset
