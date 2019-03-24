@@ -7,7 +7,7 @@ Our solution for NTIRE2019 Real Super-Resolution Challenge.
   * CUDA9.0
   * cuDNN7.1
   
-Our code is tested on Ubuntu 16.04 environment with a NVIDIA GTX 1080Ti GPU.
+Our code is tested on Ubuntu 16.04 environment with an NVIDIA GTX 1080Ti GPU.
 
 ## Dataset
 Please download the dataset from [here](https://competitions.codalab.org/competitions/21439#participate), and then put the downloaded dataset into ntire file. 
