@@ -1,1 +1,1 @@
-please put the trained model here
+download and put the trained model here
