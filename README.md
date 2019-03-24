@@ -1,4 +1,4 @@
-# Encode-Decode Residual Network (Ivip-Lab)
+# Encode-Decode Residual Network (IVIP-Lab)
 Our solution for NTIRE2019 Real Super-Resolution Challenge.
 
 ## Dependencies
