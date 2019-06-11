@@ -1,11 +1,16 @@
-# Encode-Decode Residual Network (IVIP-Lab)
-This repository is our solution for NTIRE2019 Real Super-Resolution Challenge.
-We won the 9th PSNR and Top5 SSIM in the final phase of NTIRE2019 Real Super-resolution challenge.
-Our paper will be published in CVPR 2019 Workshop.
+# Encoder-Decoder Residual Network (IVIP-Lab)
+This repository is our solution for NTIRE2019 Real Super-Resolution Challenge.  
+
+We, team IVIP-LAB, won the 9th PSNR and Top5 SSIM in the final phase of NTIRE2019 Real Super-resolution challenge.  
+Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Cheng_Encoder-Decoder_Residual_Network_for_Real_Super-Resolution_CVPRW_2019_paper.pdf)] [[poster (upload soon)](/)]
 
 ## Network Architecture
+**Encoder-Decoder Residual Network (EDRN)**  
+![Overview of EDRN](/figs/edrn.png "Overview of EDRN")
+## NTIRE2019 Real Super-resolution Challenge Results  
 
-## NTIRE2019 Real Super-resolution Challenge Results
+## Classic single image super-resolution benchmark results  
+![SISR_results(/figs/sisr_results.png)
 
 ## Dependencies
   * Python (tested on release 3.5)
@@ -27,7 +32,7 @@ Quick start (Demo) to reproduce our results. Please download our pretrained mode
 `$ python main.py --save EDRN --save_results --model edrn --n_GPUs 1 --chop --pre_train ../experiment/model/EDRN.pt --self_ensemble --test_only`
 
 ## Citation
-If you find this work useful in your reseach, please cite our paper.[[pdf]](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Cheng_Encoder-Decoder_Residual_Network_for_Real_Super-Resolution_CVPRW_2019_paper.pdf)
+If you find this work useful in your reseach, please cite our paper. 
 ```
 @InProceedings{Cheng_2019_CVPR_Workshops,
 author = {Cheng, Guoan and Matsune, Ai and Li, Qiuyu and Zhu, Leilei and Zang, Huaijuan and Zhan, Shu},
