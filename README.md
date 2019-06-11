@@ -4,11 +4,23 @@ This repository is our solution for NTIRE2019 Real Super-Resolution Challenge.
 We, team IVIP-LAB, won the 9th PSNR and Top5 SSIM in the final phase of NTIRE2019 Real Super-resolution challenge.  
 Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Cheng_Encoder-Decoder_Residual_Network_for_Real_Super-Resolution_CVPRW_2019_paper.pdf)] [poster (upload soon)]
 
+### Table of contents
+  * [Network Architecture](#network)
+  * [Experimental Results](#result)
+  * [Dependencies](#Dependencies)
+  * [Dataset](#Dataset)
+  * [Training](#Training)
+  * [Test](#Test)
+  * [Citation](#Citation)
+  
+
 ## Network Architecture
+<a id="network"></a>
 **Encoder-Decoder Residual Network (EDRN)**  
 ![Overview of EDRN](/figs/edrn.png)
 
 ## NTIRE2019 Real Super-resolution Challenge Results  
+<a id="res"></a>
 **Quantitative Results**  
 
  Method | PSNR (dB) | SSIM | Runtime (s)
