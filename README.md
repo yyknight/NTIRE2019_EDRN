@@ -13,14 +13,13 @@ Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess
   * [Test](#Test)
   * [Citation](#Citation)
   
-
-## Network Architecture
 <a id="network"></a>
+## Network Architecture
 **Encoder-Decoder Residual Network (EDRN)**  
 ![Overview of EDRN](/figs/edrn.png)
 
+<a id="result"></a>
 ## NTIRE2019 Real Super-resolution Challenge Results  
-<a id="res"></a>
 **Quantitative Results**  
 
  Method | PSNR (dB) | SSIM | Runtime (s)
