@@ -10,7 +10,7 @@ Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess
 ## NTIRE2019 Real Super-resolution Challenge Results  
 
 ## Classic single image super-resolution benchmark results  
-![SISR_results(/figs/sisr_results.png)
+![SISR_results](/figs/sisr_results.png)
 
 ## Dependencies
   * Python (tested on release 3.5)
