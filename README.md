@@ -6,12 +6,17 @@ Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess
 
 ## Network Architecture
 **Encoder-Decoder Residual Network (EDRN)**  
-![Overview of EDRN](/figs/edrn.png "Overview of EDRN")
+![Overview of EDRN](/figs/edrn.png)
+
 ## NTIRE2019 Real Super-resolution Challenge Results  
+| --- | PSNR (dB) | SSIM | Runtime (s)|
+| Baseline | 26.89 | 0.87 | --- |
+| EDRN (ours) | 28.79 | 0.84 | 47.08 |
 
 ## Classic single image super-resolution benchmark results  
 ![SISR_results](/figs/sisr_results.png)
 
+# About Our Source Code & Trained Model
 ## Dependencies
   * Python (tested on release 3.5)
   * PyTorch (tested on release 0.4.1)
@@ -31,7 +36,7 @@ Quick start (Demo) to reproduce our results. Please download our pretrained mode
 
 `$ python main.py --save EDRN --save_results --model edrn --n_GPUs 1 --chop --pre_train ../experiment/model/EDRN.pt --self_ensemble --test_only`
 
-## Citation
+# Citation
 If you find this work useful in your reseach, please cite our paper. 
 ```
 @InProceedings{Cheng_2019_CVPR_Workshops,
@@ -43,5 +48,5 @@ year = {2019}
 } 
 ```
 
-## Acknowledgements
+# Acknowledgements
 This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We are grateful to the authors for sharing their codes of EDSR.
