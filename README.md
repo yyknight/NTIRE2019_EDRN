@@ -9,10 +9,17 @@ Our paper will be published in CVPR 2019 Workshop. </i> [[pdf](http://openaccess
 ![Overview of EDRN](/figs/edrn.png)
 
 ## NTIRE2019 Real Super-resolution Challenge Results  
+**Quantitative Results**  
+
  Method | PSNR (dB) | SSIM | Runtime (s)
-:---------------:|:----------:|:---------:|:---------: 
+ :---------------:|:----------:|:---------:|:---------: 
  Baseline | 26.89 | 0.78 | --
  EDRN (ours) | 28.79 | 0.84 | 47.08
+
+
+**Qualitative Results**  
+
+![Qualitative_results](/figs/visualization.png)
 
 ## Classic single image super-resolution benchmark results  
 ![SISR_results](/figs/sisr_results.png)
