@@ -28,13 +28,14 @@ Quick start (Demo) to reproduce our results. Please download our pretrained mode
 
 ## Citation
 If you find this work useful in your reseach, please cite our paper.[pdf](http://openaccess.thecvf.com/content_CVPRW_2019/papers/NTIRE/Cheng_Encoder-Decoder_Residual_Network_for_Real_Super-Resolution_CVPRW_2019_paper.pdf)
-`@InProceedings{Cheng_2019_CVPR_Workshops,
+```@InProceedings{Cheng_2019_CVPR_Workshops,
 author = {Cheng, Guoan and Matsune, Ai and Li, Qiuyu and Zhu, Leilei and Zang, Huaijuan and Zhan, Shu},
 title = {Encoder-Decoder Residual Network for Real Super-Resolution},
 booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
 month = {June},
 year = {2019}
-} `
+} 
+```
 
 ## Acknowledgements
 This code is built on [EDSR (PyTorch)](https://github.com/thstkdgus35/EDSR-PyTorch). We are grateful to the authors for sharing their codes of EDSR.
